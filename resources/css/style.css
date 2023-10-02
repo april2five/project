@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+
+.fa {
+  margin-right: 0.7rem;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.35rem;
+  background: linear-gradient(-90deg, #ff83d1, #ff7979);
+  color: #fff;
+}
+
+nav ul.mobile {
+  display: none;
+}
+
+nav span {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+nav li a:hover {
+  color: #fafaca;
+}
+
+.banner {
+  background-image: url(https://aap-rehome-svc-p2p-pet-images-production.s3.amazonaws.com/cms/photos/224-photo_1_id.jpg);
+  background-size: cover;
+  background-position: top;
+  min-height: 34rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.words {
+  max-width: 70%;
+  background-color:rgba(255, 255, 255, 0.6);
+  padding: 1rem 1.6rem 1.8rem 1.6rem;
+  text-align: center;
+  margin: 4rem;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.words h1{
+  font-size: 3.5rem;
+}
+
+.about {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.section h1 {
+  color: #FF7979;
+  padding: 2rem;
+}
+
+.section {
+  text-align: center;
+  color: #666;
+}
+
+.photo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2rem auto;
+}
+
+.photo span {
+  max-width: 300px;
+  margin: 1rem;
+  overflow: hidden;
+  background-color: #FAEACA;
+  border-radius: 50px 50px 5px 5px;
+  padding-bottom: 0.7rem;
+  position: relative;
+  top: 0px;
+  transition: all 1s ease-out;
+}
+
+.photo span:hover {
+  background-color: white;
+  top: -10px;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 0.5rem;
+}
+
+.stuff {
+  background-image: url(../images/img-locations-background.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: 25rem;
+  padding-bottom: 3rem;
+}
+
+.stuffbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0rem 10%;
+}
+
+.share {
+  background-color:rgba(255, 255, 255, 0.8);
+  width: 300px;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 580px) {
+  .words h1{
+    font-size: 2.5rem;
+  }
+  .banner {
+    min-height: 24rem;
+  }
+  nav ul.mobile {
+    display: block;
+  }
+  nav ul.desktop {
+    display: none;
+  }
+}
