@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgba(255,0,153);
+}
+
+
+/* Navigation */
+
+nav {
+  padding: 0 3rem;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+}
+
+nav .container {
+  padding: 1rem 2.2rem;
+  background: linear-gradient(-90deg, rgba(255,179,129, 0.8), rgba(255,0,153, 0.8));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo span {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-left: 0.6rem;
+}
+
+nav li {
+  display: inline-block;
+  padding-left: 1rem;
+}
+
+nav ul.mobile {
+  display: none;
+}
+
+
+/* Fixed BG */
+
+#bg {
+  background-image: url(mikhail-vasilyev-IFxjDdqK_0U-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+
+/* Main Container */
+
+.MainContainer {
+  position: relative;
+  top: 3.3rem;
+}
+
+
+/* Header Section*/
+
+#header {
+  display: flex;
+  align-items: center;
+  min-height: 34rem;
+  overflow: hidden;
+}
+
+.headerbox {
+  margin: 0 10%;
+  max-width: 44rem;
+  font-size: 4rem;
+}
+
+.headerbox p {
+  text-shadow: 0 0 12px #fff;
+}
+
+.headerbox span {
+  background-color: rgba(255,179,129, 0.4);
+  color: white;
+  padding: 0.8rem 1.8rem;
+  font-size: 1.5rem;
+  border: 1px solid;
+  border-radius: 26px;
+  transition: all 0.4s;
+}
+
+.headerbox span:hover {
+  background-color: rgba(255,0,153, 0.5);
+  border-radius: 8px;
+}
+
+
+/* Info Section */
+
+#info {
+  background: white;
+  padding: 4rem 9%;
+  display: flex;
+  justify-content: center;
+}
+
+.infocontainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  min-height: 28rem;
+}
+
+.info-main {
+  background-image: url(pinkcat.jpg);
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  border-radius: 0px 210px 210px 0px;
+  overflow: hidden;
+  margin-right: 3rem;
+  flex-grow: 2;
+}
+
+.info-main p {
+  padding: 0.7rem 30% 0.7rem 1rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-size: 1.4rem;
+}
+
+.info-side {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.info-side li {
+  background-color: rgba(255,0,153, 0.1);
+  border-radius: 90px 0px 0px 90px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  border: 1px solid;
+  border-color: white;
+  transition: all 0.5s;
+  position: relative;
+  right: 0;
+}
+
+.info-side li:hover {
+  border: 1px solid;
+  border-color: rgba(255,0,153, 0.8);
+  background-color: rgba(255,0,153, 0.3);
+  border-radius: 0px;
+  right: -0.9rem;
+}
+
+.info-side li img {
+  width: 9rem;
+  height: auto;
+}
+
+.info-side-detail {
+  display: block;
+  padding: 1rem;
+  line-height: 1.1rem;
+}
+
+.info-side-detail h2 {
+  color: rgba(255,0,153);
+  line-height: 1.4rem;
+  padding-bottom: 0.6rem;
+}
+
+
+/* Review Section */
+
+#review {
+  background: linear-gradient(-90deg, rgba(255,0,153), rgba(255,179,129));
+  padding: 4rem 4% 1.5rem;
+  text-align: center;
+}
+
+#review h2 {
+  text-shadow: 0 0 12px #fff;
+}
+
+.reviewcontainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 8%;
+}
+
+.reviewbox li {
+  background: white;
+  display: block;
+  padding: 1.8rem;
+  margin: 1rem;
+  border-radius: 30px;
+}
+
+
+/* Footer Section */
+
+footer {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  margin-top: 5rem;
+  padding: 1.4rem 3rem;
+  color: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer a {
+  color: #ccc;
+}
+
+.social {
+  display: flex;
+  margin-left: 1rem;
+}
+.social .fa {
+  margin-left: 1rem;
+}
+
+.social a{
+  color: rgba(255,179,129);
+}
+
+
+/* MOBILE */
+
+@media only screen and (max-width:720px){
+
+  nav ul.desktop {
+    display: none;
+  }
+
+  nav ul.mobile {
+    display: block;
+  }
+
+  nav {
+    padding: 0rem;
+  }
+
+  #header {
+    min-height: 24rem;
+  }
+
+  .headerbox {
+    margin: 0 10%;
+    max-width: 24rem;
+    font-size: 3rem;
+    line-height: 3.4rem;
+  }
+
+  .headerbox p {
+    text-shadow: 0 0 12px #fff;
+    margin-bottom: 1.2rem;
+  }
+
+  .infocontainer {
+    display: block;
+  }
+
+  .info-main {
+    height: 28rem;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .info-side ul{
+    width: 100%;
+  }
+
+  .reviewcontainer {
+    display: block;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2rem 0rem;
+  }
+
+  footer .logo {
+    padding: 1rem 0;
+  }
+
+  .social .fa {
+    margin: 0 1rem;
+  }
+
+}
