@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* Hover Effect */
+
+:root {
+  --main-color-dark: #999;
+  --main-color-light: #ddd;
+  --accent-color-orange: orange;
+  --accent-color-pink: rgba(255,0,153);
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background: var(--main-color-light);
+  font-family: sans-serif;
+}
+
+.card {
+  max-width: 20rem;
+  color: var(--main-color-light);
+  background-image: url(cat-closeup.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 2rem 0rem 0rem;
+  overflow: hidden;
+  border-radius: 140px 140px 0px 0px;
+  transition: transform 500ms ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card:hover .card-content {
+  transform: translateY(0%);
+}
+
+.card:hover .card-title {
+  color: var(--accent-color-pink);
+}
+
+.card-content {
+  background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 0.6) 20%, hsl(0 0% 0% / 0.8));
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  transform: translateY(39%);
+  transition: transform 500ms ease 100ms;
+}
+
+.card-title {
+  color: var(--accent-color-orange);
+  padding-bottom: 0.5rem;
+  font-size: 3rem;
+  text-align: center;
+  transition: color 500ms ease 100ms;
+}
+
+.button {
+  color: white;
+  text-decoration: none;
+  padding: 0.2rem 0.3rem;
+  background: var(--accent-color-orange);
+  margin-top: 0.5rem;
+  transition: background 350ms;
+  transition: transform 350ms;
+}
+
+.button:hover {
+  background: var(--accent-color-pink);
+  transform: scale(1.2);
+}
