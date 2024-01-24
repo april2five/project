@@ -45,9 +45,9 @@ a.logo-mobile {
 }
 
 .hero-header {
-  line-height: 0.82;
-  font-size: 4.5rem;
-  bottom: 6%;
+  line-height: 0.81;
+  font-size: 4.42rem;
+  bottom: 5%;
 }
 
 .btn-email.mobile a {
@@ -268,6 +268,7 @@ img.narrowimg {
 }
 input[type="email"] {
    min-width: 70%;
+   padding-bottom: 1.1rem;
 }
 .link {
   width: 90%;
