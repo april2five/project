@@ -1,0 +1,286 @@
+body {
+  font-size: 1.1rem;
+}
+
+.mobile {
+  display: block;
+}
+
+.desktop {
+  display: none;
+}
+
+.nav-bg {
+  display: none;
+}
+
+a.logo-mobile {
+  font-family: 'Righteous', sans-serif;
+  font-size: 2.8rem;
+  border-bottom: solid 0px;
+}
+
+.nav-menu.mobile {
+  padding: 0 6%;
+  position: relative;
+}
+
+.menu {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  margin: 0.8rem;
+  border-bottom: 0px;
+}
+.menu a:hover {
+  border-bottom: 0px;
+}
+
+.video-wrapper {
+  height: 60vh;
+  border-radius: 44% 47% 2rem 2rem;
+  margin: 0rem 4%;
+}
+
+.hero-header {
+  line-height: 0.82;
+  font-size: 4.5rem;
+  bottom: 6%;
+}
+
+.btn-email.mobile a {
+  font-size: 1.4rem;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 2rem;
+  padding: 0.4rem 0.98rem 0.35rem;
+}
+
+
+.leaves {
+  left: 0%; transform: translate(0%);
+  opacity: 0.5;
+  display: none;
+}
+.leaf1 {
+  --parallax-speed: 0;
+  max-width: 84%;
+  margin-top: 30%;
+  margin-left: 0%
+}
+.leaf2 {
+  --parallax-speed: 0;
+  max-width: 63%;
+  margin-top: 11%;
+}
+
+
+#about .title {
+  font-size: 3rem;
+  letter-spacing: -0.15rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.descr {
+  font-size: 1.1rem;
+}
+.about1, .about2, .about3 {
+  padding: 0 6%;
+}
+.about1 {
+  margin: 5%;
+}
+.about1 .descr {
+  padding: 1rem;
+  text-align: center;
+}
+.about2 {
+  margin: 5%;
+}
+.about2 .descr {
+  padding: 1rem;
+  text-align: center;
+}
+.about3 {
+  margin: 5%;
+}
+.about3 .descr {
+  padding: 1rem;
+  text-align: center;
+}
+.container {
+  margin: -2.8rem 0 2rem 0;
+}
+.scroll-element img {
+  width: 15%;
+  border-radius: 1.2rem;
+}
+img.wideimg {
+  width: 23%;
+}
+img.narrowimg {
+  width: 11%;
+}
+
+
+#products {
+  margin: 0rem auto 1rem;
+  padding: 5.5rem 2rem 0rem;
+  border-radius: 0rem 0rem 68vw 68vw ;
+  --mask:
+    radial-gradient(96.15px at 50% 129.00px,#000 99%,#0000 101%) calc(50% - 86px) 0/172px 100%,
+    radial-gradient(96.15px at 50% -86px,#0000 99%,#000 101%) 50% 43px/172px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+#products .title {
+  line-height: 0.9;
+  letter-spacing: -0.11rem;
+  font-size: 3.5rem;
+  margin-top: 0.9rem;
+}
+#products .title-sm {
+  font-size: 1.1rem;
+  margin: 0.5rem 10% -5rem;
+}
+.box {
+  top: -25px;
+}
+.second-box {
+  top: -100px;
+}
+.box-name {
+  font-size: 1.3rem;
+  width: 47%;
+}
+.box-name-sm {
+  font-size: calc(0.8rem + 0.4vmax);
+  padding: 0 0.2rem;
+  color: #F6F2ED;
+}
+.box-content {
+  max-width: 20rem;
+}
+
+
+
+#learn {
+  border-radius: 0rem 0rem 3rem 3rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 8%;
+  align-items: center;
+  margin: 3rem 0 1rem;
+}
+#learn .title-learn {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 3rem;
+  text-align: center;
+  padding-right: 0%;
+}
+.title-learn span {
+  font-size: 4rem;
+}
+.title-learn p {
+  padding-top: 2rem;
+  font-size: 1.3rem;
+}
+#learn .info {
+  padding: 1.4rem 0;
+  width: 90%;
+  margin: 0 auto;
+}
+#learn .info .infobox:hover {
+  border-radius: 50% 50% 2rem 2rem;
+}
+.infobox p {
+  line-height: 1.26;
+  letter-spacing: 0rem;
+  font-size: 1.2rem;
+}
+#learn .info .infobox:first-of-type {
+  margin-top: 4rem;
+}
+#learn .info .infobox:last-of-type {
+  margin-bottom: 3rem;
+}
+
+
+#review {
+  padding: 2rem 0;
+}
+.slider {
+  min-height: 79vh;
+}
+.slider_txt {
+  line-height: 1.02;
+  /* font-size: 2.7rem; */
+  font-size: calc(1rem + 2.7vmax);
+  padding: 0 calc(1.4rem + 4vmax);
+}
+.review-img01 {
+  width: 21%;
+}
+.review-img02 {
+  width: 13%;
+}
+.review-img03 {
+  width: 18%;
+}
+.review-img04 {
+  width: 14%;
+}
+
+
+.video-wrapper2 {
+  height: 68vh;
+  border-radius: 0rem 0rem 28vw 28vw ;
+}
+.signup-container {
+  padding: 26% 18% 10%;
+}
+.signup-header {
+  font-size: 4rem;
+}
+
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.staytouch {
+  text-align: center;
+}
+.staytouch i {
+  font-size: 4rem;
+  letter-spacing: -0.18rem;
+  line-height: 1;
+}
+.email-form {
+  align-items: center;
+  margin: 2rem auto;
+  width: 88%;
+  justify-content: space-around;
+}
+input[type="email"] {
+   min-width: 70%;
+}
+.link {
+  width: 90%;
+  margin: 2.4rem 2rem;
+}
+.links {
+  margin-left: 10%;
+}
+.links a {
+  margin-bottom: 1.4rem;
+}
+
+
+.footer-plants {
+  display: none;
+}
