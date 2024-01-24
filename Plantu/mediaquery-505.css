@@ -11,7 +11,9 @@ body {
 }
 
 .nav-bg {
-  display: none;
+  padding: 1.4rem 6%;
+  position: fixed;
+  height: 7.6rem;
 }
 
 a.logo-mobile {
@@ -22,7 +24,8 @@ a.logo-mobile {
 
 .nav-menu.mobile {
   padding: 0 6%;
-  position: relative;
+  position: fixed;
+  font-family: 'Righteous', sans-serif;
 }
 
 .menu {
@@ -41,7 +44,7 @@ a.logo-mobile {
 .video-wrapper {
   height: 60vh;
   border-radius: 44% 47% 2rem 2rem;
-  margin: 0rem 4%;
+  margin: 5rem 4% 0rem;
 }
 
 .hero-header {
