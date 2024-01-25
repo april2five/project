@@ -41,9 +41,9 @@ a.logo-mobile {
 }
 
 .video-wrapper {
-  height: 60vh;
-  border-radius: 44% 47% 2rem 2rem;
-  margin: 5rem 4% 0rem;
+  height: 61vh;
+  border-radius: 48% 48% 2rem 2rem;
+  margin: 5.4rem 4% 0rem;
 }
 
 .hero-header {
@@ -55,7 +55,7 @@ a.logo-mobile {
 .btn-email.mobile a {
   font-size: 1.4rem;
   font-family: 'Quicksand', sans-serif;
-  margin-top: 2rem;
+  margin-top: 1.2rem;
   padding: 0.4rem 0.98rem 0.35rem;
 }
 
@@ -86,6 +86,7 @@ a.logo-mobile {
 }
 .descr {
   font-size: 1.1rem;
+  line-height: 1.32;
 }
 .about1, .about2, .about3 {
   padding: 0 6%;
@@ -130,11 +131,6 @@ img.narrowimg {
   margin: 0rem auto 1rem;
   padding: 5.5rem 2rem 0rem;
   border-radius: 0rem 0rem 68vw 68vw ;
-  --mask:
-    radial-gradient(96.15px at 50% 129.00px,#000 99%,#0000 101%) calc(50% - 86px) 0/172px 100%,
-    radial-gradient(96.15px at 50% -86px,#0000 99%,#000 101%) 50% 43px/172px 100% repeat-x;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);
 }
 #products .title {
   line-height: 0.9;
@@ -145,6 +141,7 @@ img.narrowimg {
 #products .title-sm {
   font-size: 1.1rem;
   margin: 0.5rem 10% -5rem;
+  line-height: 1.32;
 }
 .box {
   top: -25px;
@@ -155,6 +152,7 @@ img.narrowimg {
 .box-name {
   font-size: 1.3rem;
   width: 47%;
+  margin: 1rem auto;
 }
 .box-name-sm {
   font-size: calc(0.8rem + 0.4vmax);
@@ -199,7 +197,7 @@ img.narrowimg {
   border-radius: 50% 50% 2rem 2rem;
 }
 .infobox p {
-  line-height: 1.26;
+  line-height: 1.3;
   letter-spacing: 0rem;
   font-size: 1.2rem;
 }
