@@ -134,13 +134,13 @@ img.narrowimg {
 }
 #products .title {
   line-height: 0.9;
-  letter-spacing: -0.11rem;
-  font-size: 3.5rem;
-  margin-top: 0.9rem;
+  letter-spacing: -0.14rem;
+  font-size: 3.2rem;
+  margin-top: 1rem;
 }
 #products .title-sm {
-  font-size: 1.1rem;
-  margin: 0.5rem 10% -5rem;
+  font-size: 1.14rem;
+  margin: 0.8rem 10% -5rem;
   line-height: 1.32;
 }
 .box {
@@ -150,9 +150,10 @@ img.narrowimg {
   top: -100px;
 }
 .box-name {
-  font-size: 1.3rem;
+  font-size: 1.26rem;
   width: 47%;
   margin: 1rem auto;
+  line-height: 1;
 }
 .box-name-sm {
   font-size: calc(0.8rem + 0.4vmax);
@@ -186,7 +187,7 @@ img.narrowimg {
 }
 .title-learn p {
   padding-top: 2rem;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 #learn .info {
   padding: 1.4rem 0;
