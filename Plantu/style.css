@@ -180,6 +180,11 @@ video {
   position: absolute;
   top: 50%; left: 50%; transform: translate(-50%, -50%);
   object-fit: cover;
+  transition: all 400ms ease-in-out;
+}
+.video-wrapper:hover .hero-image {
+  height: 110%;
+  width: 110%;
 }
 .hero-header {
   position: absolute;
